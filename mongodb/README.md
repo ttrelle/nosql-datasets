@@ -8,8 +8,10 @@ This dataset is rather small but demonstrates how to use geo location indexes an
 - pois.js: Shell script to drop data and create indexes
 - pois.bson: BSON dump
 
-To set up this example run these commands (in that order!):
+To set up this example run these commands (in that order!) against a running _mongod_ on localhost:
 
     $ mongo pois.js
     $ mongorestore pois.bson
+	
+It will create the database _test.pois_.
 
