@@ -1,0 +1,35 @@
+node {
+  diameter: 100px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: '<type>';
+}
+
+node.Jedi {
+  color: #80ff80;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.Sith {
+  color: #ff0000;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: '{name} ({sith_name})';
+}
+
+
