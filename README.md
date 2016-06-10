@@ -1,2 +1,2 @@
 # nosql-datasets
-Some exampe dataset for NoSQL datastores
+Some example datasets for NoSQL datastores
