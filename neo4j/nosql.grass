@@ -1,0 +1,65 @@
+node {
+  diameter: 100px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: '<type>';
+}
+
+node.NoSql {
+  font-size: 30px;
+  diameter: 150px;
+  color: #c0c0c0;
+  border-color: #a0a0a0;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.Category {
+  diameter: 100px;
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.Graph {
+  color: #FF756E;
+  border-color: #E06760;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.Document {
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.KeyValue {
+  color: #FB95AF;
+  border-color: #E0849B;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.Column {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+}
+
