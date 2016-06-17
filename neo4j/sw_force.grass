@@ -11,25 +11,31 @@ node {
 relationship {
   color: #A5ABB6;
   shaft-width: 1px;
-  font-size: 8px;
+  font-size: 10px;
   padding: 3px;
   text-color-external: #000000;
   text-color-internal: #FFFFFF;
   caption: '<type>';
 }
 
+node.Human {
+}
+
 node.Jedi {
   color: #80ff80;
-  border-color: #5CA8DB;
-  text-color-internal: #FFFFFF;
+  border-color: #60df60;
+  text-color-internal: #202020;
   caption: '{name}';
 }
 
 node.Sith {
   color: #ff0000;
-  border-color: #5CA8DB;
-  text-color-internal: #FFFFFF;
-  caption: '{name} ({sith_name})';
+  border-color: #df0000;
+  text-color-internal: #FFFFFF;  
+  font-size: 14px;
+  caption: '{sith_name} ({name})';
 }
 
-
+node.Jedi.Sith {
+  border-color: #60df60;
+}
