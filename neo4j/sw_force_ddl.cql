@@ -13,7 +13,7 @@ CREATE
 (emperor :Sith :Human {name: "Sheev Palpatine", sith_name:"Darth Sidious", titles: ["Cancellor", "Emperor"]}),
 (maul :Sith :Zabrak {sith_name: "Darth Maul"}),
 (kylo :Sith :Human {name: "Ben Solo", sith_name: "Kylo Ren"}),	
-(snoke :Sith {name: "Grand- Master Snoke"}),
+(snoke :Sith {sith_name: "Grand- Master Snoke"}),
 //(jek14 :Sith :Clone {name: "Jek-14"}),
 
 // Other ...

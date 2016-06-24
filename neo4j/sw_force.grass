@@ -18,6 +18,13 @@ relationship {
   caption: '<type>';
 }
 
+relationship.LOVES {
+  color: #e00000;
+  font-size: 12px;
+  text-color-external: #e00000;
+  caption: '<3 <3 <3';
+}
+
 node.Human {
 }
 
@@ -36,6 +43,6 @@ node.Sith {
   caption: '{sith_name} ({name})';
 }
 
-node.Jedi.Sith {
+node.Sith.Jedi {
   border-color: #60df60;
 }
