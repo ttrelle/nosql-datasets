@@ -12,7 +12,7 @@ A small graph showing the main hierachy of NoSQL datastores.
 ## Star Wars Jedi / Sith Geanealogy
 This graph shows the relationships between the Jedi and Sith from the Star Wars movies.
 
-<img src="sw_force.svg">
+<img src="https://cdn.rawgit.com/ttrelle/nosql-datasets/master/neo4j/sw_force.svg">
 
 - sw_force_dll.cql: Cypher script to create the graph
 - sw_force.cql: some interesting queries
