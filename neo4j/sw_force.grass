@@ -20,6 +20,7 @@ relationship {
 
 relationship.LOVES {
   color: #e00000;
+  shaft-width: 5px;  
   font-size: 12px;
   text-color-external: #e00000;
   caption: '<3 <3 <3';
