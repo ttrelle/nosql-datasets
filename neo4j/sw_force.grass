@@ -20,7 +20,7 @@ relationship {
 
 relationship.LOVES {
   color: #e00000;
-  shaft-width: 5px;  
+  shaft-width: 5px;
   font-size: 12px;
   text-color-external: #e00000;
   caption: '<3 <3 <3';
@@ -39,11 +39,12 @@ node.Jedi {
 node.Sith {
   color: #ff0000;
   border-color: #df0000;
-  text-color-internal: #FFFFFF;  
+  text-color-internal: #FFFFFF;
   font-size: 14px;
   caption: '{sith_name} ({name})';
 }
 
 node.Sith.Jedi {
   border-color: #60df60;
+  border-width: 5px;
 }
