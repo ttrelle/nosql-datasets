@@ -18,4 +18,20 @@ This graph shows the relationships between the Jedi and Sith from the Star Wars 
 - sw_force.cql: some interesting queries
 - sw_force.grass: Stylesheets for the graph
 
+## Setup
+
+For a fast setup you can use your local Neo4j installation or simply use the provider Docker compose file:
+
+```
+docker-compose up
+```
+
+It will start and set up Neo4j with user/password = `neo4/secret`.
+
+As soon as the container is running, you can import the data by executing this command:
+
+```
+docker exec -t neo4j /var/lib/neo4j/bin/cypher-shell -u neo4j -p secret -f /import/sw_force_ddl.cql
+```
+
 
